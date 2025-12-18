@@ -13,6 +13,8 @@ export interface SiteConfig {
     email: string;
     company: string;
     address: string;
+    phone?: string;
+    workingHours?: string;
   };
 
   legal: {

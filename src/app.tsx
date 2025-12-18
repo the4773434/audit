@@ -8,12 +8,14 @@ import Home from "@/pages/home";
 import SignIn from "@/pages/sign-in";
 import SignUp from "@/pages/sign-up";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { LanguageProvider } from "@/hooks/useLanguage";
 
 export function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
+    <LanguageProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
 
         {/* Authentication routes */}
         <Route path="/signin" element={<SignIn />} />
@@ -58,6 +60,7 @@ export function App() {
         />
       </Routes>
     </BrowserRouter>
+    </LanguageProvider>
   );
 }
 

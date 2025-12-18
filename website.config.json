@@ -1,14 +1,16 @@
 {
   "site": {
-    "name": "Minimal Starter",
-    "tagline": "Your Creative Canvas",
-    "description": "A clean, minimal starter template providing the perfect foundation for your next project. Built with modern tools and ready for your creativity.",
-    "ogImage": "/og-image.png",
+    "name": "AUDIT",
+    "tagline": "Professional Audit and Consulting Services",
+    "description": "Leading audit organization providing comprehensive financial audit, tax consulting, business consulting, and risk management services in Uzbekistan.",
+    "ogImage": "/logo.png",
     "twitterHandle": "",
     "contact": {
-      "email": "contact@example.com",
-      "company": "Your Company",
-      "address": ""
+      "email": "info@audit.uz",
+      "company": "AUDIT",
+      "address": "Tashkent, Uzbekistan",
+      "phone": "+998 71 123 45 67",
+      "workingHours": "Mon-Fri: 9:00 - 18:00"
     },
     "legal": {
       "privacyPolicy": "/privacy",
@@ -16,6 +18,6 @@
     }
   },
   "theme": {
-    "defaultTheme": "dark"
+    "defaultTheme": "light"
   }
 }
